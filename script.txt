@@ -1,10 +1,20 @@
-## the actual script in question should be easy enough I'd hope, as long as %0 is supported it will be TRIVIAL
-%0|%0 
-#shoooould work, otherwise we have a few more maybe
-VAR1=kersploosh()
-fucntion kersploosh(){
-    echo VAR1
+# so far we're here
+conf t
+shell processing full
+exit
+function fork () {
+$1 $1
 }
-kersploosh()
-#actually im stuck here oh well thats enough for tonight
-
+fork fork
+# this triggers functioerror stackoverflow
+# how do we solve this?
+# option 1: hear me out
+## what if we open a buncha terminals using ssh and run this at the same time? would it work?
+# option 2: what if we made it run itself 
+## like but differently
+#like 
+function forky () {
+	echo ((($1 $1) == True))
+}
+forky forky
+#would this work?
