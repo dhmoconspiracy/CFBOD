@@ -18,3 +18,7 @@ function forky () {
 }
 forky forky
 #would this work?
+#something i found in chatgpt
+conf t
+stack-size (size in megabyte)
+# could THIS work?
