@@ -1,0 +1,10 @@
+## the actual script in question should be easy enough I'd hope, as long as %0 is supported it will be TRIVIAL
+%0|%0 
+#shoooould work, otherwise we have a few more maybe
+VAR1=kersploosh()
+fucntion kersploosh(){
+    echo VAR1
+}
+kersploosh()
+#actually im stuck here oh well thats enough for tonight
+
