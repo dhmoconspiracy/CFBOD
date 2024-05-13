@@ -22,3 +22,5 @@ forky forky
 conf t
 stack-size (size in megabyte)
 # could THIS work?
+
+exception memory ignore overflow
